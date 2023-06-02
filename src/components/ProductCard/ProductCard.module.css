@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  height: 220px;
+}
+
+@media screen and (max-width: 1400px) {
+  .card {
+    flex-direction: column;
+    padding: 30px;
+    height: 320px;
+  }
+}
+
+.card_image {
+  max-width: 200px;
+}
+
+@media screen and (max-width: 1400px) {
+  .card_image {
+    max-height: 120px;
+  }
+}
+
+.card_quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card_delete {
+  position: absolute !important;
+  top: 0px;
+  right: 0px;
+  margin: 10px !important;
+}

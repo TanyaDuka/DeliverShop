@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.shop_block {
+  display: flex;
+  width: 80%;
+  margin: 60px auto 50px;
+  box-shadow: 0px 1px 4px rgb(195, 195, 195);
+}
+
+@media screen and (max-width: 580px) {
+  .shop_block {
+    flex-direction: column;
+  }
+}
+
+.shop_block_text {
+  padding: 10px;
+  font-size: 36px;
+  color: #4fac08;
+  margin: 50px auto;
+  text-shadow: 0px 1px 4px rgb(173, 173, 173);
+}
+
+@media screen and (max-width: 700px) {
+  .shop_block_text {
+    font-size: 26px;
+  }
+}
